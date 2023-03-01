@@ -1,0 +1,294 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: black; 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    height: 60px;
+    top: 0px;
+}
+
+.navbar-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    font-stretch:wider;
+}
+
+.navbar-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+   
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.media {
+    justify-content: space-between;   
+    padding: 10px;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    
+}
+
+.nav-item {
+    width: 100%;
+    height: 100%;   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(239, 10, 10);
+}
+
+
+
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+
+   
+}
+
+.main-text {
+    z-index: 1;
+    height: 12em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 4em;
+    font-family:cursive;
+    font-stretch: wider;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.about-head {
+    text-align: center;
+    font-size: 38px;
+    color: rgb(15, 245, 245);
+}
+
+.photo-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.photo-container {
+    width:35%;
+    height: 700px;
+}
+
+.my-photo {
+    width:100%;
+    height: 700px;
+}
+
+.text-container {
+    width: 35%;
+    font-size: 32px;
+    margin-left: 100px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    color: rgb(3, 255, 255);
+    text-align: center;
+}
+
+.footport {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.footport-head {
+    color: white;
+}
+.contact {
+    color: white;
+}
+
+.port-text {
+    font-size: 14px;
+    
+}
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+}
+
+.companies {
+    height: 50px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+}
+
+.school {
+    height: 50px;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+  
+}
+
+.main-hobby-text {
+    z-index: 1;
+    height: 12em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 6em;
+    font-family:fantasy;
+    font-stretch: wider;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.hobby-text {
+    align-items: center;
+    color: whitesmoke;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+
+}
+
+.football-images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.football-img-container {
+    width: 20%;
+    height: 400px;
+
+}
+
+.football-image {
+    object-fit: cover;
+    width:100%;
+    height: 400px;
+}
+
+.liverpool {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.liverpool-img-container {
+    width: 20%;
+    height: 400px;
+
+}
+
+.hobby-link {
+    color: rgb(10, 248, 248);
+    text-decoration: underline;
+}
+
+.liverpool-image {
+    object-fit: cover;
+    width:100%;
+    height: 400px;
+}
+
+.hobby-copyright {
+    text-align: center;
+    margin-top: 180px;
+    color: white;
+}
+
+.form-page {
+    background-color: white;
+}
+.form-response {
+    text-align: center;
+}
+
+input{
+    border:rgb(44, 45, 45) solid ;
+    border-radius: 4px;
+    border-width: 0.3px;
+    height: 27px;
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    height: 27px;
+    font-size: 14px;
+    background: rgb(15, 209, 253) ;
+    border: rgba(162, 107, 5, 0.733);
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 10%;
+    font-size: 16px;
+}
